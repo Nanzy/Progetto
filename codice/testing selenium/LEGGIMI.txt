@@ -1,3 +1,0 @@
-Prima di eseguire i test in maniera sequenziale bisogna rieseguire gli script "Script_SOW_v2.sql" e "Popalemento - Test.sql".
-La suite dei test è "Test suite completa". 
-N.B. : non spostare i file dalle cartelle.
