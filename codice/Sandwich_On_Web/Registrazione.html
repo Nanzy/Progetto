@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registrazione </title>
+		<link rel="stylesheet" type="text/css" href="File CSS//Header_Layout.css">
+		<link rel="stylesheet" type="text/css" href="File CSS//Registrazione_Layout.css">
+		<script src="cookies.js"></script>
+		<script src="account.js"></script>
+</head>
+<body>
+	<header class="top">
+		<img id="logo" src="Immagini//logo.png">
+	
+	
+		<nav id="barra">
+			<ul>
+				<li class="voci"> <img src="Immagini//home.png" height="20px" width="20px"> <a class="voci_link" href="Home_Page.html"> &nbsp Home </a> </li>
+				<li class="voci"> <a class="voci_link" href="Lista_Menu.html"> &nbsp Lista Menu </a> </li>
+				<li class="voci"> <a class="voci_link" href="Recensioni.html"> &nbsp Recensioni </a> </li>
+			<form id="bottoni_barra">
+				<input type='button' value='Accedi' onclick='logIn()'>
+				<input type="button" value="Registrati" onclick="registrazione()">
+			</form>
+			<ul>
+		</nav>
+		
+	</header>
+	
+	<form id="form_log">
+		<table id = "table_log" border=1>
+			<tr class="etichetta"> <th>
+				<label for="text_nome" > Nome </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_nome" type="text" name="nome">
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_cognome"> Cognome </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_cognome" type="text" name="cognome">
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_email"> Email </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_email" type="text" name="email">
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_pass"> Password </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_pass" type="text" name="pass">
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_citta"> Citt&agrave;</label>
+			</th> </tr>
+			<tr> <td>
+				<select id="text_citta" type="text" name="citta">
+					<option value="SALERNO"> Salerno
+					<option value="LANCUSI"> Lancusi
+					<option value="FISCIANO"> Fisciano
+					<option value="BARONISSI"> Baronissi
+				</select>
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_indirizzo"> Indirizzo </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_indirizzo" type="text" name="indirizzo">
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_cap"> CAP </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_cap" type="text" name="cap">
+			</tr> </td>
+			
+			<tr class="etichetta"> <th>
+				<label for="text_telefono"> Numero Telefono </label>
+			</th> </tr>
+			<tr> <td>
+				<input id="text_telefono" type="text" name="telefono">
+			</tr> </td>
+			
+			<tr> <td>
+				<input class="bottone" id="button_registrazione" type="button" value="Conferma" onclick="registrazione_utente()">
+				<input class="bottone" id="button_cancella" type="button" value="Annulla" onclick="location.href = 'Home_Page.html'">
+			</tr> </td>
+		</table>
+	</form>
+		
+<body>
+</html>

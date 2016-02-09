@@ -1,0 +1,102 @@
+.div_recensione { background-color: #FACC2E;
+			border:2px solid black;
+			color: black;
+			font-size: 18px;
+			font-family:arial;
+			margin: 20px;
+			
+			}
+			
+.intestazione_rec{ 
+			background-color: yellow;
+			border:1px solid black;
+			color: black;
+			font-size: 20px;
+			
+			}
+			
+.titolo {font-size: 22px; font-weight: bolder;}
+
+#div_lista_rec {margin: 10px;}
+
+.dx {text-align:right;}
+
+p{margin: 10px;}
+
+#div_insert {margin: 30px;}
+#insert_recensione{
+	
+    outline: medium none;
+        outline-width: medium;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+        text-decoration-color: -moz-use-text-color;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+    font: bold 12px Arial,Helvetica,sans-serif;
+        font-family: Arial,Helvetica,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: normal;
+        font-size-adjust: none;
+        font-stretch: normal;
+        -x-system-font: none;
+        font-feature-settings: normal;
+        font-language-override: normal;
+        font-kerning: auto;
+        font-synthesis: weight style;
+        font-variant-alternates: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-variant-position: normal;
+    color: black;
+    padding: 5px 10px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+    border: 1px solid #0076A3;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: #0076A3;
+        border-right-color: #0076A3;
+        border-bottom-color: #0076A3;
+        border-left-color: #0076A3;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    background: transparent -moz-linear-gradient(center top , #00ADEE, #0078A5) repeat scroll 0% 0%;
+        background-color: transparent;
+        background-image: -moz-linear-gradient(center top , yellow, orange);
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    border-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+
+}

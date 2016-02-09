@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ordini </title>
+	<link rel="stylesheet" type="text/css" href="File CSS//Header_Account_Layout.css">
+	<link rel="stylesheet" type="text/css" href="File CSS//Ordine_Dettagli_Layout.css">
+	<script src="cookies.js"></script>
+	<script src="account.js"></script>
+	<script src="ordine.js"></script>
+</head>
+
+<body>
+	<input type="hidden" id="data" value="">
+	
+
+		
+	<header class="top">
+		<img class="logo" src="Immagini//logo.png">
+	
+	
+		<nav>
+			<ul>
+				<li> <img src="Immagini//home.png" height="20px" width="20px"> <a href="Home_Account.html"> &nbsp Home </a> </li>
+				<li> <a href="Lista_Menu_Account.html"> &nbsp Lista Menu </a> </li>
+				<li> <a href="Recensioni_Account.html"> &nbsp Recensioni </a> </li>
+				<li> <a href="QuickMenu.html"> &nbsp QuickMen&ugrave; </a> </li>
+				<li> <a href="Carrello.html"> &nbsp Carrello </a> </li>
+				<li> <a href="Ordini.html"> &nbsp Ordini </a> </li>
+				<div id="right">
+			<script type="text/javascript">
+					account = leggiCookie("Account_Accesso");
+					a = account.split('++');
+					document.write("<p id='utente'>" + a[0] + " " +a[1] +"</p>");
+			</script>
+				<input type='button' value='Logout' onclick='logout()'> 
+			</div>
+			<ul>
+		</nav>
+		
+	</header>
+</body>
+</html>

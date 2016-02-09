@@ -1,0 +1,19 @@
+address.indirizzo {	text-align: right; 
+					color:white;	}
+				
+
+footer.down {background-color:black;}
+
+section.home{text-align: center;}
+
+
+
+section > img {float:left;
+			margin: 50px;}
+			
+section > article {margin:50px;}
+
+footer {margin-top:200px;}
+
+/**/
+

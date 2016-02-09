@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+	<title> HomePage - Sandwich on Web </title> 
+	<link rel="stylesheet" type="text/css" href="File CSS//Header_Account_Layout.css">
+	<link rel="stylesheet" type="text/css" href="File CSS//Homepage_Layout.css">
+	<script src="cookies.js"></script>
+	<script src="account.js"></script>
+	
+</head>
+
+<body>
+	
+	<header class="top">
+		<img id="logo" src="Immagini//logo.png">
+	
+		<nav id="barra">
+			<ul>
+				<li class="voci"> <img src="Immagini//home.png" height="20px" width="20px"> <a class="voci_link" href="Home_Account.html"> &nbsp Home </a> </li>
+				<li class="voci"> <a class="voci_link" href="Lista_Menu_Account.html"> &nbsp Lista Menu </a> </li>
+				<li class="voci"> <a class="voci_link" href="Recensioni_Account.html"> &nbsp Recensioni </a> </li>
+				<li class="voci"> <a class="voci_link" href="QuickMenu.html"> &nbsp QuickMen&ugrave; </a> </li>
+				<li class="voci"> <a class="voci_link" href="Carrello.html"> &nbsp Carrello </a> </li>
+				<li class="voci"> <a class="voci_link" href="Ordini.html"> &nbsp Ordini </a> </li>
+			<form id="bottoni_barra">
+			<script type="text/javascript">
+					account = leggiCookie("Account_Accesso");
+					a = account.split('++');
+					document.write("<p id='utente'>" + a[0] + " " +a[1] +"</p>");
+			</script>
+				<input class="bottoni_account" type='button' value='Modifica' onclick='modifica()'>
+				<input class="bottoni_account" type='button' value='Logout' onclick='logout()'> 
+			</form>
+			</ul>
+		</nav>
+		
+	</header>
+	
+	
+			
+	
+	<section class="home">
+	<img id="img" src="Immagini//boxamerica.jpg">
+	<article>
+	<h1> Benvenuto nel sito! </h1>
+	<p> 
+		Sandwich on web nasce nel 2015 dall'idea di Vito Esposito, che decide di sfruttare il mezzo pi&ugrave; popolare del millennio: Internet.
+
+Da subito, la qualit&agrave; e il gusto dei prodotti di Vito si impongono nel panorama gastronomico della zona richiamando 
+l'attenzione degli abitanti del luogo e dei numerosi turisti che ogni anno visitano <br>la localit&agrave; turistica di Salerno.
+
+<p>Grazie all'impiego di prodotti genuini, e all'alta qualit&agrave; delle materie prime d'eccezione e soprattutto alla passione per il proprio lavoro,
+il nome di Vito &egrave; diventato una garanzia in tutta la zona salernitana.
+
+
+Qualit&agrave;, creativit&agrave; e tradizione, si mescolano in questo ambizioso progetto, nel quale Vito decide di mettersi in gioco,
+portando il servizio a domicilio ad un nuovo livello. </p>
+
+<p>
+Sandwich on web &egrave; in continua espansione e Vito tiene molto ai feedback dei clienti: grazie alla sezione <italic>Recensioni</italic>
+ogni cliente registrato ha la possibilit&agrave; di dire la sua sul servizio.</p>
+
+<p>Su Sandwich on web puoi trovare molte varianti per farcire il tuo panino ideale, hai solo l'imbarazzo della scelta!</p>
+</p>
+<p>
+<em>N.B. Le consegne vengono effettuate dalle ore 18:00 alle ore 23:59.</em>
+	</p>
+	</article>
+	
+
+	</section>
+	
+	<footer class="down">
+	<hr size="10">
+	<address class="indirizzo">
+	Vito Cognome <br>
+	Sandwich On Web<br>
+	I-85084 FISCIANO (SA) ITALY<br>
+	Via Roma n 13 <br>
+	tel. 0973/41456 <br>
+				
+	</address>
+	
+	</footer>
+
+	<script type="text/javascript">
+		
+		
+		var secondi=5;
+		var num=0;
+		
+		function CambiaImmagine() 
+		{
+			
+			var immagini = new Array();
+			immagini[0]="Immagini//veggie.jpg";
+			immagini[1]="Immagini//boxbig.jpg";
+			immagini[2]="Immagini//chianina.jpg";
+			immagini[3]="Immagini//americano.jpg";
+			
+			
+			document.getElementById("img").src= immagini[num];
+			num=(num+1>=immagini.length)?0:num+1;
+			setTimeout("CambiaImmagine()", secondi*1000);
+		}	
+		CambiaImmagine();
+	</script>
+	
+
+
+</body>
+
+</html>

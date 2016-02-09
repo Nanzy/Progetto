@@ -1,0 +1,3 @@
+
+var ApiGen = ApiGen || {};
+ApiGen.elements = [["c","Account"],["c","AccountTest"],["c","Carrello"],["c","CarrelloTest"],["c","Componente"],["c","ComponenteTest"],["c","Connection"],["c","Gestore_Account_Control"],["c","Gestore_Account_ControlTest"],["c","Gestore_Carrello_Control"],["c","Gestore_Carrello_ControlTest"],["c","Gestore_Menu_Control"],["c","Gestore_Menu_ControlTest"],["c","Gestore_Ordine_Control"],["c","Gestore_Ordine_ControlTest"],["c","Gestore_QuickMenu_Control"],["c","Gestore_QuickMenu_ControlTest"],["c","Gestore_Recensione_Control"],["c","Gestore_Recensione_ControlTest"],["c","Menu"],["c","Menu_Scelto"],["c","Menu_SceltoTest"],["c","MenuTest"],["c","Ordine"],["c","OrdineTest"],["c","Recensione"],["c","RecensioneTest"]];

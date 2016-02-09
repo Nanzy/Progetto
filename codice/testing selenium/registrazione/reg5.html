@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>TC_REGISTRAZIONE_05</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_REGISTRAZIONE_05</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/userdir/public_html/Sandwich_On_Web/Registrazione.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_nome</td>
+	<td>S</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_cognome</td>
+	<td>ESPOSITO</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_email</td>
+	<td>S.ESPOSITO@HOTMAIL.IT</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_pass</td>
+	<td>SAMUELE</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=text_citta</td>
+	<td>label=Baronissi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_indirizzo</td>
+	<td>VIA DANTE ALIGHIERI 21</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_cap</td>
+	<td>84081</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_telefono</td>
+	<td>3934918346</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=button_registrazione</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Error: Incorrect integer value: 'Inserimento non valido - Account! Nome non valido [deve avere almeno 2 caratteri]' for column 'errore_nome' at row 1</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
